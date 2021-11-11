@@ -79,7 +79,7 @@ logo = """
 \033[1;97m------------------------------------------------------------------------------------------------
 \033[1;93m➤\033[1;97m Author   : efk eniola
 \033[1;93m➤\033[1;97m Github   : https://github.com/eniolahacking
-\033[1;93m➤\033[1;97m Fb Id  : https://Facebook.com.itz.efk.3
+\033[1;93m➤\033[1;97m Fb Id  : https://www.facebook.com/itz.efk.3
 \033[1;93m➤\033[1;97m NB: NOTE HACK AT YOUR OWN RISK IF ANYTHING HAPPEN I WILL NOT BE PART OF IT 
 \033[1;97m---------------------------------------------------------------------------------------------------
 """
@@ -118,12 +118,12 @@ def tech_abm():
             login_choice()
         else:
             print ("\t [!] Password : "+passwordss+" (Wrong)")
-	    os.system('xdg-open https://facebook.com.itz.efk.3')
+	    os.system('xdg-open https://www.facebook.com/itz.efk.3')
             time.sleep(1)
             tech_abm()
     else:
         print ("\t [!] Username : "+username+" (Wrong)")
-	os.system('xdg-open https://facebook.com.itz.efk.3')
+	os.system('xdg-open https://www.facebook.com/itz.efk.3')
         time.sleep(1)
         tech_abm()
 	
@@ -185,7 +185,7 @@ def clone_loginvia():
         sav.write(token)
         sav.close()
         abm("\r\033[1;92m[✓] Login Successfull\033[0;97m")
-	os.system('xdg-open https://m.facebook.com/Techabm')
+	os.system('xdg-open https://www.facebook.com/itz.efk.3')
         time.sleep(1)
         menu()
     elif hack =="2":
